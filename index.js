@@ -7,5 +7,4 @@ const PORT = 5000;
 
 app.use(bodyParser.json());
 app.use('/', api);
-
 app.listen(PORT, () => console.log(`App listening on port ${PORT}`));
